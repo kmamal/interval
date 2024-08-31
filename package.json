@@ -8,7 +8,17 @@
   },
   "license": "MIT",
   "main": "./src/index.js",
-  "exports": "./src/index.js",
+  "exports": {
+    "./clamp": "./src/clamp.js",
+    "./covers": "./src/covers.js",
+    "./overlap": "./src/overlap.js",
+    "./union": "./src/union.js",
+    "./intersection": "./src/intersection.js",
+    "./difference": "./src/difference.js",
+    "./endpoints": "./src/endpoints.js",
+    "./from": "./src/from.js",
+    "./includes": "./src/includes.js"
+  },
   "scripts": {
     "test": "npx -p @kmamal/testing testing",
     "update-exports": "node ./scripts/update-exports.mjs"
