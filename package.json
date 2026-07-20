@@ -18,15 +18,14 @@
     "@kmamal/testing": "0.0.33"
   },
   "exports": {
-    "./clamp": "./src/clamp.js",
+    "./union": "./src/union.js",
     "./covers": "./src/covers.js",
     "./overlap": "./src/overlap.js",
-    "./union": "./src/union.js",
-    "./intersection": "./src/intersection.js",
-    "./difference": "./src/difference.js",
+    "./includes": "./src/includes.js",
     "./endpoints": "./src/endpoints.js",
+    "./intersection": "./src/intersection.js",
+    "./clamp": "./src/clamp.js",
     "./from": "./src/from.js",
-    "./includes": "./src/includes.js"
-  },
-  "main": "./src/index.js"
+    "./difference": "./src/difference.js"
+  }
 }

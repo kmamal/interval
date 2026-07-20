@@ -11,5 +11,5 @@ test("intervals.intersection", (t) => {
 	t.equal(intersection([ 2, 3 ], [ 1, 4 ]), [ 2, 3 ])
 
 	t.equal(intersection([ 1, 2 ], [ 3, 4 ]), null)
-	t.equal(intersection(from(1, 2, false, true), from(2, 3, true, false)), null)
+	t.equal(intersection(from(1, 2, { openEnd: true }), from(2, 3, { openStart: true })), null)
 })

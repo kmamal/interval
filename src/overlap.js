@@ -1,6 +1,4 @@
 
-const overlap = ([ aStart, aEnd ], [ bStart, bEnd ]) => false
-	|| (aStart < bEnd && bStart <= aEnd)
-	|| (bStart < aEnd && aStart <= bEnd)
+const overlap = ([ aStart, aEnd ], [ bStart, bEnd ]) => aStart <= bEnd && bStart <= aEnd
 
 module.exports = { overlap }
